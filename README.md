@@ -44,7 +44,7 @@ To deposit into account: Send a get request to /data/accounts/{accountId}/deposi
 To withdraw from account: Send a get request to /data/accounts/{accountId}/withdraw/{amount}\
   This can only be done when logged on as the account owner of the account you want to withdraw from\
 To transfer between accounts: Send a get request to /data/accounts/{sourceAccountId}/transfer/{destinationAccountId}/{amount}\
-  This can only be done when logged on as the account owner of the source account the money is coming from\
+  This can only be done when logged on as the account owner of the source account the money is coming from
 
 ## To Do
 Restrict users from deleting their accounts that are not empty (have a balance greater than 0.00).  Check must be made before deleting any account or the user itself if any of their accounts contain money.
